@@ -1,0 +1,6 @@
+{
+    "name": "adnane/packager",
+    "description": "A Laravel Package",
+    "license": "MIT",
+    "require": {}
+}
