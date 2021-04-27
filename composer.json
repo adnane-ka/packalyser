@@ -1,6 +1,25 @@
 {
-    "name": "adnane/packager",
+    "name": "adnane/packalyser",
     "description": "A Laravel Package",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "adnane-ka",
+            "email": "dannykadri0@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Adnane\\Packalyser\\": "/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Adnane\\Packalyser\\PackalyserServiceProvider"
+            ]
+        }
+    },
     "require": {}
 }
