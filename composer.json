@@ -1,6 +1,6 @@
 {
     "name": "adnane/packalyser",
-    "description": "A Laravel Package",
+    "description": "Packalyser is a laravel package to list your dependencies & dev dependencies in a much organized & human-readable way .",
     "license": "MIT",
     "authors": [
         {
