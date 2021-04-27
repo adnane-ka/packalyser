@@ -8,7 +8,7 @@ Packalyser is a laravel package to list your dependencies & dev dependencies in 
 
 1.via composer : 
 ```bash
-composer require-dev adnane/packalyser
+composer require --dev adnane/packalyser
 ```
 2.add the service provider:
 
