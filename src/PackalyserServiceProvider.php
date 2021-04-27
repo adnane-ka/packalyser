@@ -30,7 +30,7 @@ class PackalyserServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             // Publish assets
             $this->publishes([
-              __DIR__.'/resources/assets' => public_path('packalyser'),
+              __DIR__.'/resources/build' => public_path('packalyser'),
             ], 'assets');
         }
 
